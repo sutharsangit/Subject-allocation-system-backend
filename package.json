@@ -4,13 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
-  }
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sutharsangit/Subject-allocation-system-backend.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sutharsangit/Subject-allocation-system-backend/issues"
+  },
+  "homepage": "https://github.com/sutharsangit/Subject-allocation-system-backend#readme"
 }
